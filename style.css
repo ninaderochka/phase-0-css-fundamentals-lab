@@ -3,3 +3,65 @@ body {
   height: 100%;
   margin: 0;
 }
+
+#logo {
+
+  display:flex;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+ padding : 0 10px 0 10px;
+ display: flex;
+ justify-content: center;
+}
+
+nav a {
+  background-color: greenyellow;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+figcaption {
+  text-align: center;
+  font-size: smaller;
+}
+
+#featured-property p {
+  max-width: 800px;
+  margin: 0 auto;
+text-align: center;
+}
+
+#details {
+  display: flex;
+  background-color: greenyellow;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contact {
+  float:left;
+  width: 25%;
+}
+
+.correspondence {
+  float:left;
+  width: 25%;
+}
+
+.links {
+  float:left;
+  width: 25%;
+}
+
+.follow {
+  float:left;
+  width: 25%;
+}
